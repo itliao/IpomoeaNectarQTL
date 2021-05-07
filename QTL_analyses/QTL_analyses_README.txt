@@ -1,6 +1,6 @@
 Files and scripts for running QTL analyses in R. 
-Includes identifying the closest midpoint marker between two overlapping QTLs for calculating QTL genetic correaltions
+Includes identifying the closest midpoint marker between two overlapping QTLs for calculating QTL genetic correaltions.
 
-Data files:
+Files:
 
-R scripts:
+Scripts:
