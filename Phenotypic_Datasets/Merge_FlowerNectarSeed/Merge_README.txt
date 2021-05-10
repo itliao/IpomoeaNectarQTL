@@ -14,4 +14,5 @@ Output file:
 output file from script was manually edited (rename column names and remove extra columns)  
 becomes the final file to use in calculating correlations, heritability, etc. 
 
-F5_JoinAll3R_IndMean_final_v1.txt 
+F5_JoinAll3R_IndMean_final_v1.txt - F5 only (removed C and L)
+F5_JoinAll3R_LineMeanCL_final_v1.txt - F5 and C and L
