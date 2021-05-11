@@ -9,3 +9,5 @@ Some modifications include:
 Files:
 F5Nectar_181102_ori_final.xlsx
 F5Flower_Mod1-3_181025_ori_final.xlsx
+
+Seed dataset in Merge_FlowerNectarSeed. Did not need to be cleaned prior to analyses.
