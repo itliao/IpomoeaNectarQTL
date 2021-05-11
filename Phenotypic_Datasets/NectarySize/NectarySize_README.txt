@@ -5,6 +5,10 @@ Raw image files in JPG. Files with "points" designated from FIJI - TIFF (open wi
 
 Combine nectary size raw data points from FIJI, and then estimation of nectary size from data points.
 
-Files:
+Scripts to convert x,y coordinates of points into distances to estimate nectary size:
+NectaryDataConversion_for1file_final.py
+NectaryDataConversion_mostImages_final.py
 
-Scripts:
+Files:
+measurements_191203_200121.txt - use with NectaryDataConversion_for1file_final.py
+measurements_19XXXX_20XXXX.txt - use with NectaryDataConversion_mostImages_final.py
