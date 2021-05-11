@@ -10,5 +10,7 @@ F5Nectar_rm3less_190905.txt
 Output: 
 Will be slightly different with each run, but the following files are ones that were used
 Added back individuals with only 1 or 2 flowers phenotyped per individual
+Files found in Merge_FlowerNectarSeed directory
+
 F5random3_NectarALL_200206.txt
 F5random3_FlowerALL_190913.txt
