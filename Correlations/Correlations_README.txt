@@ -1,6 +1,7 @@
 Files and scripts for:
  - calculating line means
  - calculating genetic and environmental correlations using (1) line means and (2) variance-covariance components
+ - variance components for calculating heritability
  - comparing the two methods of calculating genetic correlations
  - graphing histograms (Fig. S1)
 
