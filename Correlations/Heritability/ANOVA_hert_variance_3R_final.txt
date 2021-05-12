@@ -1,0 +1,312 @@
+[1] "CorollaWidth"
+Linear mixed model fit by REML ['lmerMod']
+Formula: F5[[i]] ~ (1 | F5line)
+   Data: F5
+
+REML criterion at convergence: 2689.2
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-2.31055 -0.55352 -0.02344  0.53113  2.38166 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ F5line   (Intercept) 2.450    1.565   
+ Residual             2.261    1.504   
+Number of obs: 635, groups:  F5line, 322
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept)  21.8530     0.1058   206.5
+                          2.5 %    97.5 %
+sd_(Intercept)|F5line  1.375563  1.756856
+sigma                  1.392286  1.630680
+(Intercept)           21.645326 22.060696
+[1] "CorollaThroat"
+Linear mixed model fit by REML ['lmerMod']
+Formula: F5[[i]] ~ (1 | F5line)
+   Data: F5
+
+REML criterion at convergence: 920.2
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-2.66881 -0.54295 -0.00422  0.53904  3.05593 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ F5line   (Intercept) 0.1547   0.3934  
+ Residual             0.1368   0.3699  
+Number of obs: 635, groups:  F5line, 322
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept)  6.50765    0.02641   246.4
+                          2.5 %    97.5 %
+sd_(Intercept)|F5line 0.3467653 0.4405927
+sigma                 0.3425464 0.4010207
+(Intercept)           6.4558158 6.5594932
+[1] "CorollaLength"
+Linear mixed model fit by REML ['lmerMod']
+Formula: F5[[i]] ~ (1 | F5line)
+   Data: F5
+
+REML criterion at convergence: 2521
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-2.60611 -0.55741 -0.03199  0.52820  2.33837 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ F5line   (Intercept) 1.652    1.285   
+ Residual             1.849    1.360   
+Number of obs: 635, groups:  F5line, 322
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept) 22.56510    0.08979   251.3
+                          2.5 %    97.5 %
+sd_(Intercept)|F5line  1.115934  1.453507
+sigma                  1.259486  1.474240
+(Intercept)           22.388859 22.741346
+[1] "OverallCorollaLength"
+Linear mixed model fit by REML ['lmerMod']
+Formula: F5[[i]] ~ (1 | F5line)
+   Data: F5
+
+REML criterion at convergence: 2663.3
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-3.03578 -0.53506 -0.01919  0.52020  2.38014 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ F5line   (Intercept) 2.515    1.586   
+ Residual             2.094    1.447   
+Number of obs: 635, groups:  F5line, 322
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept)  26.5721     0.1055   251.9
+                          2.5 %    97.5 %
+sd_(Intercept)|F5line  1.402696  1.772350
+sigma                  1.340151  1.568822
+(Intercept)           26.365005 26.779171
+[1] "SepalLength"
+Linear mixed model fit by REML ['lmerMod']
+Formula: F5[[i]] ~ (1 | F5line)
+   Data: F5
+
+REML criterion at convergence: 1600.1
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-2.75722 -0.50885  0.02227  0.48552  2.89566 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ F5line   (Intercept) 0.3629   0.6025  
+ Residual             0.4456   0.6675  
+Number of obs: 635, groups:  F5line, 322
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept) 11.08518    0.04282   258.9
+                           2.5 %     97.5 %
+sd_(Intercept)|F5line  0.5190086  0.6842609
+sigma                  0.6182403  0.7236954
+(Intercept)           11.0011412 11.1692178
+[1] "LongestStamenLength"
+Linear mixed model fit by REML ['lmerMod']
+Formula: F5[[i]] ~ (1 | F5line)
+   Data: F5
+
+REML criterion at convergence: 2041.7
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.5421 -0.5049 -0.0567  0.5603  2.6382 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ F5line   (Intercept) 0.9107   0.9543  
+ Residual             0.8006   0.8948  
+Number of obs: 635, groups:  F5line, 322
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept) 15.95619    0.06402   249.2
+                           2.5 %     97.5 %
+sd_(Intercept)|F5line  0.8399495  1.0699391
+sigma                  0.8282329  0.9708494
+(Intercept)           15.8305167 16.0818338
+[1] "PistilLength"
+Linear mixed model fit by REML ['lmerMod']
+Formula: F5[[i]] ~ (1 | F5line)
+   Data: F5
+
+REML criterion at convergence: 2106.9
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.7328 -0.5060  0.0125  0.4843  3.1665 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ F5line   (Intercept) 1.4803   1.2167  
+ Residual             0.7019   0.8378  
+Number of obs: 635, groups:  F5line, 322
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept) 13.94469    0.07558   184.5
+                           2.5 %     97.5 %
+sd_(Intercept)|F5line  1.1002950  1.3396519
+sigma                  0.7761067  0.9080508
+(Intercept)           13.7963370 14.0930431
+[1] "SeedMass"
+Linear mixed model fit by REML ['lmerMod']
+Formula: F5[[i]] ~ (1 | F5line)
+   Data: F5
+
+REML criterion at convergence: -5154.3
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.4171 -0.4991  0.0337  0.5025  2.8487 
+
+Random effects:
+ Groups   Name        Variance  Std.Dev.
+ F5line   (Intercept) 1.346e-05 0.003668
+ Residual             8.253e-06 0.002873
+Number of obs: 635, groups:  F5line, 322
+
+Fixed effects:
+             Estimate Std. Error t value
+(Intercept) 0.0284788  0.0002343   121.5
+                            2.5 %      97.5 %
+sd_(Intercept)|F5line 0.003290861 0.004062064
+sigma                 0.002661245 0.003113893
+(Intercept)           0.028018932 0.028938714
+[1] "SeedLength"
+Linear mixed model fit by REML ['lmerMod']
+Formula: F5[[i]] ~ (1 | F5line)
+   Data: F5
+
+REML criterion at convergence: 238.5
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.2035 -0.4474  0.0056  0.4304  3.3021 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ F5line   (Intercept) 0.08819  0.2970  
+ Residual             0.03367  0.1835  
+Number of obs: 635, groups:  F5line, 322
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept)   4.4160     0.0181     244
+                          2.5 %    97.5 %
+sd_(Intercept)|F5line 0.2699453 0.3257668
+sigma                 0.1699947 0.1988789
+(Intercept)           4.3804737 4.4515082
+[1] "SeedWidth"
+Linear mixed model fit by REML ['lmerMod']
+Formula: F5[[i]] ~ (1 | F5line)
+   Data: F5
+
+REML criterion at convergence: 81.2
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.7743 -0.4819 -0.0153  0.4387  3.2390 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ F5line   (Intercept) 0.04776  0.2185  
+ Residual             0.03350  0.1830  
+Number of obs: 635, groups:  F5line, 322
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept)   4.0167     0.0142     283
+                          2.5 %    97.5 %
+sd_(Intercept)|F5line 0.1951544 0.2427580
+sigma                 0.1695905 0.1983324
+(Intercept)           3.9888429 4.0445675
+[1] "NectarVolume"
+Linear mixed model fit by REML ['lmerMod']
+Formula: F5[[i]] ~ (1 | F5line)
+   Data: F5
+
+REML criterion at convergence: 1175.1
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.2836 -0.5724 -0.0064  0.4774  3.4765 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ F5line   (Intercept) 0.1613   0.4016  
+ Residual             0.2420   0.4920  
+Number of obs: 635, groups:  F5line, 322
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept)  1.55105    0.02973   52.16
+                          2.5 %    97.5 %
+sd_(Intercept)|F5line 0.3390953 0.4612561
+sigma                 0.4556369 0.5334084
+(Intercept)           1.4926784 1.6094034
+[1] "SugarConcentration"
+Linear mixed model fit by REML ['lmerMod']
+Formula: F5[[i]] ~ (1 | F5line)
+   Data: F5
+
+REML criterion at convergence: 6285.7
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.4167 -0.5696  0.0088  0.5540  2.5853 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ F5line   (Intercept) 602.8    24.55   
+ Residual             714.1    26.72   
+Number of obs: 635, groups:  F5line, 322
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept)  311.452      1.733   179.7
+                          2.5 %    97.5 %
+sd_(Intercept)|F5line  21.21740  27.83710
+sigma                  24.75005  28.97084
+(Intercept)           308.05005 314.85364
+[1] "NectarySize"
+Linear mixed model fit by REML ['lmerMod']
+Formula: F5[[i]] ~ (1 | F5line)
+   Data: F5
+
+REML criterion at convergence: -2658.9
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.4017 -0.5391 -0.0652  0.4426  4.4083 
+
+Random effects:
+ Groups   Name        Variance  Std.Dev.
+ F5line   (Intercept) 0.0005980 0.02445 
+ Residual             0.0004601 0.02145 
+Number of obs: 635, groups:  F5line, 322
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept) 0.101520   0.001609   63.11
+                           2.5 %     97.5 %
+sd_(Intercept)|F5line 0.02175484 0.02723301
+sigma                 0.01987804 0.02324122
+(Intercept)           0.09836318 0.10467762
