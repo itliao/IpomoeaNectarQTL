@@ -20,3 +20,5 @@ CorrCategories_200803.txt
 Pairwise traits column name and which module the pairwise traits belong in
 The two Cat columns are not used; rather the first column (gCorLinLa) is what is used in the merging of files
 
+
+Includes a directory for calculating heritability using a python script from output from SumStats_clean_v1.R
