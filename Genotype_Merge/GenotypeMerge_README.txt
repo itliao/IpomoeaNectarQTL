@@ -5,7 +5,7 @@ Genotypes_SameInRIL_200615_final.py
 
 Input files:
 ipomoea_geno_F5_only_200615.csv
-mapJLR_mod_200615.txt
+mapJLR_mod_200615.txt - Male cM and Female cM were averaged to obtain "cM"
 
 Output files:
 missData_JLR_200615.csv
