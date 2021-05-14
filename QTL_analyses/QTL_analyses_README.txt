@@ -19,4 +19,4 @@ mapJLR_pmap_200615.csv
 
 To convert RQTL2 into RQTL format:
 Convert_RQTL2_RQTL_200804_final.py
-RQTL_formatted_200804.csv
+output file (input for R/qtl): RQTL_formatted_200804.csv
