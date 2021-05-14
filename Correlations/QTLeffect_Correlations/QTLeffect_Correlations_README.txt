@@ -14,4 +14,5 @@ GWS_all_201005.csv - values from GWS QTL pairwise traits
 GWS_FN_201005.csv - values from only flower and nectar QTLs (GWS QTLs)
 
 Output:
+Figure 4
 Figure 5
