@@ -13,6 +13,7 @@ Final_HK_markersList_200828.csv
 For all QTLs (CWS) set:
 GenoPhenoMeansNum_10000KLO_200820m.txt
 GenotypePeakInfo_all_200821.txt
+peaks_ChromKLO_operm10000_AddEff_200820.txt
 
 Manually modified files with information to change the signs/direction of the RHE given whether 11/22 was associated with CC/LL genotypes
 CC = cordatotriloba homozygous genotypes
