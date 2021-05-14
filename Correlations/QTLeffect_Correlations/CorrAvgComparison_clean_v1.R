@@ -50,10 +50,10 @@ plot(A2)
 M1 <- cor(CWS_all$gen_corr,CWS_all$Correct_QTL_overlap)
 print("(2) gen_corr vs Correct_QTL_overlap")
 print(M1)
-p1 <- ggplot(CWS_all, aes(x=gen_corr, y=Correct_QTL_overlap)) +
-  geom_point() + theme_bw() + labs(x="genetic correlations (rG)", y="QTL overlap") +
+B4 <- ggplot(CWS_all, aes(x=gen_corr, y=Correct_QTL_overlap)) +
+  geom_point(size=1) + theme_bw() + labs(x="genetic correlations (rG)", y="QTL overlap (all QTLs)") +
   theme(panel.grid.major=element_blank(), panel.grid.minor=element_blank(),plot.background=element_blank())
-plot(p1)
+plot(B4)
 p1 <- ggplot(CWS_all, aes(x=gen_corr, y=Correct_QTL_overlap, color=Cat2)) +
   geom_point() + theme_bw() + labs(x="genetic correlations (rG)", y="QTL overlap") +
   theme(panel.grid.major=element_blank(), panel.grid.minor=element_blank(),plot.background=element_blank())
@@ -139,10 +139,10 @@ plot(A1)
 M1 <- cor(GWS_all$gen_corr,GWS_all$Correct_QTL_overlap)
 print("(2) gen_corr vs Correct_QTL_overlap")
 print(M1)
-p1 <- ggplot(GWS_all, aes(x=gen_corr, y=Correct_QTL_overlap)) +
-  geom_point() + theme_bw() + labs(x="genetic correlations (rG)", y="QTL overlap") +
+A4 <- ggplot(GWS_all, aes(x=gen_corr, y=Correct_QTL_overlap)) +
+  geom_point(size=1) + theme_bw() + labs(x="genetic correlations (rG)", y="QTL overlap (GWS QTLs)") +
   theme(panel.grid.major=element_blank(), panel.grid.minor=element_blank(),plot.background=element_blank())
-plot(p1)
+plot(A4)
 p1 <- ggplot(GWS_all, aes(x=gen_corr, y=Correct_QTL_overlap, color=Cat2)) +
   geom_point() + theme_bw() + labs(x="genetic correlations (rG)", y="QTL overlap") +
   theme(panel.grid.major=element_blank(), panel.grid.minor=element_blank(),plot.background=element_blank())
@@ -205,6 +205,14 @@ p1 <- ggplot(GWS_FN, aes(x=Correct.ave_total_RHE, y=correct.bias, color=Cat1)) +
   theme(panel.grid.major=element_blank(), panel.grid.minor=element_blank(),plot.background=element_blank())
 plot(p1)
 #sink()
+dev.off()
+
+############################
+# arrange to make Figure 4 #
+############################
+pdf("Correlations_Figure4_arrange.pdf", useDingbats = FALSE)
+fig4 <- ggarrange(A4, B4, ncol = 2, nrow=1, labels=c("a)","b)"))
+fig4
 dev.off()
 
 ############################
