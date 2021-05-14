@@ -1,0 +1,19 @@
+# Data format for F5 data
+crosstype: riself
+geno: mapJLR_comp_geno_200615.csv
+pheno: mapJLR_pheno_200817.csv
+gmap: mapJLR_gmap_200615.csv
+pmap: mapJLR_pmap_200615.csv
+
+alleles:
+- "1"
+- "2"
+#example: genotypes:
+  #AA: 1
+  #BB: 2
+genotypes:
+  11: 1
+  22: 2
+na.strings:
+- '-'
+- NA
