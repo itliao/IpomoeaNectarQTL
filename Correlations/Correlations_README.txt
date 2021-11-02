@@ -6,7 +6,7 @@ Files and scripts for:
  - graphing histograms (Fig. S1)
 
 Script:
-SumStats_clean_v1.R 
+SumStats_clean_v2.R - updated 210929 to reflect correction for calculating variances and covariances
 
 Input files:
 F5_JoinAll3R_IndMean_final_v1.txt - 635 F5 individuals only
