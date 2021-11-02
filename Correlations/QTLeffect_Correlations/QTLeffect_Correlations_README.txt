@@ -5,7 +5,7 @@ Script and files to:
 # (2) Plot correlations
 
 Script
-CorrAvgComparison_clean_v1.R
+CorrAvgComparison_clean_v2.R
 
 Input files:
 CWS_all_201005.csv - values from all QTL pairwise traits
